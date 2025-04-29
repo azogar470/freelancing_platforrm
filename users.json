@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "username": "kutta",
+            "password": "kutia",
+            "email": "kuttakutia@gmail.com",
+            "full_name": "kutta ojha",
+            "phone": "6969696969",
+            "discription": "gand dene ka dhanda"
+        },
+        {
+            "username": "sharadsingh27",
+            "password": "Sharad2123",
+            "email": "singhghoshsharad@gmail.com",
+            "full_name": "Sharad Singh Ghosh",
+            "phone": "7000105098",
+            "discription": "manaagement"
+        }
+    ]
+}

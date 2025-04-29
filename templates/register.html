@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+
+</head>
+<body>
+    <h1 class="mid-top">Register as a client.</h1>
+
+    <div class="left-top"><img src="https://i.ibb.co/HTkpxTsm/logo.png" alt="Cobra Logo" width="200"></div>
+   
+    <form method="POST">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="full_name" placeholder="Full Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number"><br>
+    <input type="text"name="discription" placeholder="Discription of feild of Work." required>
+    <button type="submit">Register</button>
+    </form>
+    <h2 class="mid-bottom">Already have an account? <a href="/login">Login</a></h2>
+
+    <!-- <p>Already have an account? <a href="/login">Login</a></p> -->
+</body>
+</html>

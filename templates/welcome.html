@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cobra</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+<body>
+    <!-- <a href='/login'>Login</a> | <a href='/register'>Register</a>" -->
+    <div class="container">
+        <img src="https://i.ibb.co/HTkpxTsm/logo.png" alt="Cobra Logo" width="200">
+        <h1>Welcome to Cobra</h1>
+        <p>Devloped by the students of MITS Gwalior</p>
+        <div class="buttons">
+            <button onclick="location.href='/login'">Login</button>
+            <button onclick="location.href='/registermid'">Register</button>
+        </div>
+    </div>
+</body>
+</html>

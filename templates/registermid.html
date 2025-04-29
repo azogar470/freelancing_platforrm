@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .option-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .option-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .option-box img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .option-box input {
+            margin-top: 10px;
+        }
+        .option-box label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        @media (max-width: 600px) {
+            .option-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="left-top"><img src="https://i.ibb.co/HTkpxTsm/logo.png" alt="Cobra Logo" width="200"></div>
+
+    <div class="container">
+        <div class="header">Welcome to Our Freelancing Platform : COBRA</div>
+        <p>Connect with professionals or find work easily.</p>
+        <div class="option-container">
+            <div class="option-box">
+                <img src="https://www.shutterstock.com/image-vector/male-manager-icon-vector-style-600nw-461340628.jpg" alt="Client" sizes="200px">
+                <button onclick="location.href='/register'">Register</button>
+                <label for="client">Hire a Freelancer</label>
+            </div>
+            <div class="option-box">
+                <img src="https://cdn-icons-png.flaticon.com/512/912/912316.png" alt="Freelancer" width="200">
+                <button onclick="location.href='/register'">Register</button>
+                <label for="freelancer">Find Work</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

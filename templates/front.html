@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancing Platform - AI Powered</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0f6d5f;
+            padding: 15px 50px;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 50px;
+            background: url('freelancing-banner.jpg') no-repeat center center/cover;
+            color: #ecd366;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero-section h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        .hero-section p {
+            font-size: 20px;
+            color: #f9f946;
+        }
+        .search-box {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .search-box input {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-box button {
+            padding: 10px 20px;
+            background: #0f6d5f;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .cta-buttons {
+            margin-top: 30px;
+        }
+        .cta-buttons a {
+            padding: 15px 30px;
+            margin: 10px;
+            background: #ffcc00;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            display: inline-block;
+        }
+        .quote-section {
+            text-align: center;
+            font-style: italic;
+            font-size: 22px;
+            margin: 40px 0;
+            color: #555;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .feature-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.navbar div');
+            nav.classList.toggle('active');
+        }
+        function searchFunction() {
+            const query = document.getElementById('searchInput').value;
+            alert('Searching for: ' + query);
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><strong>
+            <img src="https://i.ibb.co/HTkpxTsm/logo.png" alt="logo" width="130
+    " href="/home">
+        </strong></div>
+        <div>
+            <a href="/aboutus">About us</a>
+            <a href="/register">Find Work</a>
+            <a href="/register">Hire Talent</a>
+            <a href="/registermid">Sign Up</a>
+        </div>
+        <button onclick="toggleMenu()">☰</button>
+    </div>
+    <div class="hero-section">
+        <h1>Find the Best Freelancers or Jobs</h1>
+        <p>Join a global marketplace powered by AI</p>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search for jobs or freelancers...">
+            <button onclick="searchFunction()">Search</button>
+        </div>
+        <div class="cta-buttons">
+            <a href="/login">Join as Freelancer</a>
+            <a href="/register">Hire Talent</a>
+        </div>
+    </div>
+    <div class="quote-section">
+        "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."
+    </div>
+    <div class="features">
+        <div class="feature-box">
+            <h3>AI Matching</h3>
+            <p>Get the best job or freelancer recommendations powered by AI.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Secure Payments</h3>
+            <p>Escrow-based payments for trust and security.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Verified Profiles</h3>
+            <p>Work with professionals and trusted businesses.</p>
+        </div>
+    </div>
+</body>
+</html>

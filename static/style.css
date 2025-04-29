@@ -1,0 +1,129 @@
+/* Reset default styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f6f6f6, #efeae8, #f3f0ef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling */
+.login-container {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Input field styles */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group input:focus {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Button styles */
+.login-btn {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 2s;
+}
+
+.login-btn:hover {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    transform: translateY(-2px);
+}
+
+/* Register link */
+.register-link {
+    /* margin-top: 50px; */
+    font-size: 60x;
+    align-items:center ;
+}
+
+.register-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  .left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Optional: Adds some spacing from the edges */
+
+  }
